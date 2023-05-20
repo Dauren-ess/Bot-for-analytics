@@ -53,10 +53,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     private void startCommand(long chatID, String name) throws TelegramApiException {
 
 
-        String answer = "Аналитика цен для Toyota Camry:\n" +"Год: 2018\n"+ "Объем: 2л\n"
-                + "Средняя цена: 13 633 500 т\n" + "Средний пробег: 80437 км\n"+ "Количество продаж: 32\n" + "\n" + "Год: 2018\n"+ "Объем: 2.5л\n" +"Средняя цена: 15 480 000 т\n"
-                +"Средний пробег: 89075 км\n"+ "Количество продаж: 615\n" + "\n"
-                +"Год: 2018\n" + "Объем: 3.5л\n"+"Средняя цена: 18 325 000 n\n"+"Средний пробег: 94000 км\n"+"Количество продаж: 23\n";
+        String answer = "";
         sendMessage(chatID, answer);
     }
 
